@@ -1,0 +1,113 @@
+@import('subpage/board/_item.css');
+
+.pilot button
+{
+    width: 100%;
+}
+
+.pilot_board
+{
+    width: 200px;
+}
+
+.pilot_board select
+{
+    font-weight: bold;
+}
+
+.pilot_board .keyword
+{
+    font-size: 2em;
+}
+
+.pilot_list
+{
+    height: 590px;
+    overflow-y: auto;
+}
+
+.pilot_list li
+{
+    border-radius: 3px;
+}
+
+.pilot_list .del
+{
+    text-decoration: line-through;
+}
+
+.pilot .color
+{
+    background-color: #A9A9A9;
+}
+
+.pilot .alli
+{
+    background-color: #0078a3;
+}
+
+
+.pilot .axis:hover
+, .pilot .alli:hover
+{
+    cursor:pointer;
+}
+
+.pilot .axis:hover
+{
+    background-color: indianred;
+}
+
+.pilot .alli:hover
+{
+    background-color: #59b4d4;
+}
+
+.pilot_name
+{
+    font-size:2.5em;
+    text-align: center;
+    height: 49px;
+    color: gold;
+}
+
+.pilot_info_board table
+{
+    width: 100%;
+}
+
+.account_info_tb
+{
+    min-height: 182px
+}
+
+.pilot_info_tb
+{
+    min-height: 482px;
+}
+
+.pilot_info_board th
+{
+    width: 142px;
+}
+
+.pilot_action_board
+{
+    width:180px;
+}
+
+.pilot_action_board ul
+, .pilot_action_board li
+{
+    padding: 0px;
+}
+
+.pilot_action_board li
+{
+    padding: 0px;
+}
+
+.board_itemfilter
+{
+    width: 200px;
+}
